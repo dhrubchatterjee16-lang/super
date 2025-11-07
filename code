@@ -21,9 +21,11 @@ class Triangle(Shape):
      self.width = width
      self.height = height
 
-  
-square= Square(color="blue",is_filled=False,width=6) 
+circle= Circle(color="red", is_filled=True,radius=5) 
+square= Square(color="blue",is_filled=False,width=6)
+triangle= Triangle(color="yellow", is_filled=True,width=7)
 
-print(square.color)
-print(square.is_filled)
-print(f"{square.width}cm")
+print(triangle.color)
+print(triangle.is_filled)
+print(f"{triangle.width}cm")
+print(f"{triangle.height}cm")
